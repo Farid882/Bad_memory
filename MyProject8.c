@@ -2,10 +2,7 @@ bit oldstate;                                    // Old state flag
 
 void main() {
 
-  ANSEL  = 0;                                    // Configure AN pins as digital I/O
-  ANSELH = 0;
-  C1ON_bit = 0;                                  // Disable comparators
-  C2ON_bit = 0;
+
 
   TRISB0_bit = 1;                                // set RB0 pin as input
 
