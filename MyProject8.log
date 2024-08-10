@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F47K42 -DL -O11111114 -fo8 -N"D:\MikroeExam\MyProject8.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\MikroeExam\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "MyProject8.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 8170 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 172	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	MyProject8.c
+error: 5	324	Undeclared identifier 'ANSEL' in expression	MyProject8.c
+error: 6	324	Undeclared identifier 'ANSELH' in expression	MyProject8.c
+error: 7	324	Undeclared identifier 'C1ON_bit' in expression	MyProject8.c
+error: 8	324	Undeclared identifier 'C2ON_bit' in expression	MyProject8.c
+error: 17	324	Undeclared identifier 'Button' in expression	MyProject8.c
+error: 17	309	Invalid statement	MyProject8.c
+error: 20	324	Undeclared identifier 'Button' in expression	MyProject8.c
+error: 20	317	Operator 'logical' is not applicable to these operands ''	MyProject8.c
+error: 20	309	Invalid statement	MyProject8.c
+error: 0	102	Finished (with errors): 10 рту 2024, 10:24:54	MyProject8.mcppi
